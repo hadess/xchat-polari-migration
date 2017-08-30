@@ -3,7 +3,7 @@ Migrate xchat-gnome configuration to Polari
 Usage
 -----
 
-`make install`
+`make install && killall -9 mission-control`
 
 If the tool complains that the telepathy configuration file already exists and you
 want to wipe your existing Telepathy (not just Polari!) configuration, remove
