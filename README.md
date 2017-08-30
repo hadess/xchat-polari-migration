@@ -5,6 +5,10 @@ Usage
 
 `make install`
 
+If the tool complains that the telepathy configuration file already exists and you
+want to wipe your existing Telepathy (not just Polari!) configuration, remove
+`~/.local/share/telepathy/mission-control/accounts.cfg` before running `make install`.
+
 TODO
 ----
 
